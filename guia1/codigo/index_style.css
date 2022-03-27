@@ -12,7 +12,7 @@ html{
     background: linear-gradient(to right, #240b368a, #c3143180), url("../img/fondo.jpg");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    height: 143%;
+    height: 190%;
 }
 
 body{
@@ -81,28 +81,28 @@ main{
 .elecciones {
     background-color: #e5e2e2;
     size: 100%;
-    width: 100%%;
+    width: 89%%;
     margin: 5%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
+    max-width: 89%;
 
 }
 
 .elecciones ul {
-    font-size: 0;
+    font-size: 5px;
     list-style-type: none;
 }
 
 .elecciones ul li {
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
     color: rgb(0, 0, 0);
     display: inline-block;
     padding-top: 15px;
     padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
     position: relative;
 }
 
