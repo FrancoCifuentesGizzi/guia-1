@@ -1,0 +1,151 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+
+    background: -webkit-linear-gradient(to right, #240b368a, #c3143180), url("nyan-cat.gif");
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b368a, #c3143180), url("../img/fondo.jpg");
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 143%;
+}
+
+body{
+    position: relative;
+
+    background-color: #EEEEEE;
+    margin: 2%;
+}
+header{
+
+    background: -webkit-linear-gradient(to right, #240b368a, #c3143180);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b368a, #c3143180);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main{
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.texto{
+    font-family: "Open Sans", sans-serif;
+}
+
+.texto p{
+    padding-bottom: 5px;
+
+}
+
+.texto li{
+    margin-left: 5%;
+    display: flexbox;
+}
+
+.texto span{
+    float: left;
+    color: #f9f9f9;
+    margin: 1px;
+    background-color: #5bbb60;
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 0.5rem;
+    border-radius: 3px;
+
+}
+
+
+.titulo{
+    color: #c7bfaa;
+    font-family: 'Bebas Neue';
+    padding-top: 5%;
+    margin: 0;
+    font-size: 100px;
+    text-align: center;
+}
+
+.contenedor {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.elecciones {
+    background-color: #e5e2e2;
+    size: 100%;
+    width: 100%%;
+    margin: 5%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+
+}
+
+.elecciones ul {
+    font-size: 0;
+    list-style-type: none;
+}
+
+.elecciones ul li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.elecciones ul li ul {
+    display: none;
+}
+
+.elecciones ul li:hover {
+    cursor: pointer;
+    background-color: #bdb4b4;
+}
+
+.elecciones ul li:hover ul {
+    display: block;
+    margin-top: 5px;
+    width: 230px;
+    left: 0;
+    position: absolute;
+}
+
+.elecciones ul li:hover ul li {
+    display: block;
+    background-color: #e7e7e7;
+}
+
+
+.elecciones ul li:hover ul li {
+    text-align: left;
+}
+
+.elecciones ul li:hover ul li span {
+    float: right;
+    color: #f9f9f9;
+    margin: 3px;
+    background-color: #5bbb60;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 3px;
+}
+
+.elecciones ul li:hover ul li:hover {
+    background-color: #bbb5b5;
+}
+
+
